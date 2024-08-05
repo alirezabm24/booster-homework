@@ -1,0 +1,35 @@
+:root {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 40px 50px;
+}
+
+.links__container {
+  gap: 40px;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.links__container li {
+  font-size: 1.2rem;
+}
+
+.logo {
+  width: auto;
+  height: 40px;
+}
+
+.links__container a {
+  text-decoration: none;
+}
